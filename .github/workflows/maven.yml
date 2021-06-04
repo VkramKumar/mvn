@@ -30,4 +30,4 @@ jobs:
         # Artifact name
         name: 'JarFile'
         # Destination path
-        path: 'mvn/my-app/target/my-app-1.0-SNAPSHOT.jar'
+        path: 'target/my-app-1.0-SNAPSHOT-shaded.jar'
