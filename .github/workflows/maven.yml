@@ -28,6 +28,6 @@ jobs:
       uses: actions/download-artifact@v2.0.9
       with:
         # Artifact name
-        name: 'JarFile'
+        name: JarFile
         # Destination path
-        path: /home/runner/work/mvn/mvn/my-app/target/my-app-1.0-SNAPSHOT-shaded.jar
+        path: /mvn/my-app/target/my-app-1.0-SNAPSHOT-shaded.jar
