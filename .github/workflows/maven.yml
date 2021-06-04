@@ -30,10 +30,10 @@ jobs:
     - uses: actions/download-artifact@v2
       with:
         name: my-artifact
-        path: target/my-app-1.0-SNAPSHOT-shaded.jar
+        path: /home/runner/work/mvn/mvn/target/my-app-1.0-SNAPSHOT-shaded.jar
 
     - name: Display structure of downloaded files
       run: ls -R
-      working-directory: target/my-app-1.0-SNAPSHOT-shaded.jar
+      working-directory: /home/runner/work/mvn/mvn/
 
 
